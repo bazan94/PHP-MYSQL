@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+	<link rel="stylesheet" type="text/css" href="basic.css" />
+ <img src="http://profperry.com/Classes20/PHPwithMySQL/KingLibLogo.jpg" >   
+<p>
+    Please sign up
+</p>
+
+<form method="post" action="assignment_1_add_patron.php">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" size="30"><br><br>
+
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" size="30"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" size="30"><br><br>
+    
+    <label>City of Residence:</label><br>
+    <select name="cities">
+        <option value="blank">-</option>
+        <option value="Chicago">Chicago</option>
+        <option value="Detroit">Detroit</option>
+        <option value="Toronto">Toronto</option>
+      </select>
+    <br><br>
+    <input type="submit" value="Submit Information">
+  </form> 
+
+</body>
+</html>
